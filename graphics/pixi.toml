@@ -1,0 +1,12 @@
+[workspace]
+authors = ["Ramiro Harguinteguy <ramirohar@gmail.com>"]
+channels = ["conda-forge"]
+name = "graphics"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+matplotlib = ">=3.10.8,<4"
+numpy = ">=2.4.0,<3"
